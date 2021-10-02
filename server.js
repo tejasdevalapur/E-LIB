@@ -3,7 +3,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 const express = require('express')
-const expressLayouts= require('express-Layouts')
+const expressLayouts= require('express-ejs-layouts')
 const indexRouter = require('./routes/index.js')
 const app= express()
 
