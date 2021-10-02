@@ -23,4 +23,4 @@ db.on('error', error => console.error(error))
 db.once('open', () => console.log('Connected to database'))
 app.use('/',indexRouter)
 
-app.listen(env.process.PORT || 3000)
+app.listen(process.env.PORT || 3000)
